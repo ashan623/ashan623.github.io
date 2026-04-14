@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Haohang Huang, a Master student at the EIT NLP of Eastern Institute of Technology, Ningbo, fortunately supervised by Dr. Xiaoyu Shen.
+I am Haohang Huang, a Master student at UOL, and the EIT NLP of Eastern Institute of Technology, Ningbo, fortunately supervised by Dr. Xiaoyu Shen.
 
 A data-driven personal website
 ======
