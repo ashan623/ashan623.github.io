@@ -22,7 +22,7 @@ I focus on **Information Retrieval**, **Multimodal Embeddings**, and **Agentic S
   Studying how retrieval and reranking models handle complex user queries involving multiple conditions, subtle semantic differences, and hard negatives. Recent work includes document ranking with and without explicit reasoning [[ICLR'26](https://arxiv.org/abs/2510.08985)], which systematically investigates whether chain-of-thought reasoning improves LLM-based reranking, as well as multi-conditional retrieval for fine-grained cross-modal understanding [[CVPR'26](https://arxiv.org/abs/2603.01082)].
 
 - **Tool retrieval and agentic search:**  
-  Improving retrieval systems for agentic workflows, including tool retrieval, memory retrieval, multi-round information seeking, and evidence-based decision-making. Recent work includes Tool-DE [[ICLR'26](https://arxiv.org/abs/2510.22670)], which shows that simple document expansion can substantially improve tool retrieval and supports both dense retrievers and pointwise rerankers.
+  Improving retrieval systems for agentic workflows, including tool retrieval, memory retrieval, multi-round information seeking, and evidence-based decision-making. Recent work includes Tool-REX [[ICLR'26](https://arxiv.org/abs/2510.22670)], which shows that simple document expansion can substantially improve tool retrieval and supports both dense retrievers and pointwise rerankers.
 
 - **Omni-modality embeddings:**  
   Exploring unified embedding models that support retrieval across text, image, video, audio, visual documents, tools, and agent-oriented tasks. Recent work includes MMEB-V3 [[arXiv'26](https://arxiv.org/abs/2604.23321)], a comprehensive benchmark for diagnosing the performance gaps of omni-modality embedding models.
