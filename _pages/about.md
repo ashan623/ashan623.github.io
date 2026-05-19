@@ -34,7 +34,9 @@ Overall, my research aims to understand the limitations of current retrieval and
 # News
 
 [2026.04] Released our preprint **MMEB-V3: Measuring the Performance Gaps of Omni-Modality Embedding Models**. 
+
 [2026.03] One paper was accepted by **CVPR 2026** 🎉. 
+
 [2026.02] Two papers were accepted by **ICLR 2026** 🎉.  
 # Publications
 
