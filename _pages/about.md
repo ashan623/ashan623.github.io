@@ -51,11 +51,11 @@ ICLR 2026. [[link]](https://arxiv.org/abs/2510.08985) [[code]](https://github.co
 
 **Tools Are Under-Documented: Simple Document Expansion Boosts Tool Retrieval**  
 Xuan Lu\*, **<ins>Haohang Huang</ins>\***, Rui Meng, Yaohui Jin, Wenjun Zeng, Xiaoyu Shen  
-ICLR 2026. [[link]](https://arxiv.org/abs/2510.22670)
+ICLR 2026. [[link]](https://arxiv.org/abs/2510.22670)[[code]](https://github.com/EIT-NLP/Tool-REX)
 
 **Beyond Global Similarity: Multi-Conditional Retrieval for Fine-Grained Cross-Modal Understanding**  
 Xuan Lu, Kangle Li, **<ins>Haohang Huang</ins>**, Rui Meng, Wenjun Zeng, Xiaoyu Shen  
-CVPR 2026.
+CVPR 2026. [[link]](https://arxiv.org/abs/2603.01082) [[code]](https://github.com/EIT-NLP/MCMR)
 
 **A Novel Random Sample Partition-Based Ensemble Algorithm for Credit Card Fraud Detection**  
 **<ins>Haohang Huang</ins>**, Xuan Lu  
@@ -65,7 +65,7 @@ ICIC 2025 Oral. [[link]](https://dl.acm.org/doi/10.1007/978-981-96-9875-2_28)
 
 **MMEB-V3: Measuring the Performance Gaps of Omni-Modality Embedding Models**  
 **<ins>Haohang Huang</ins>**, Xuan Lu, Mingyi Su, Xuan Zhang, Ziyan Jiang, Ping Nie, Kai Zou, Tomas Pfister, Wenhu Chen, Wei Zhang, Xiaoyu Shen, Rui Meng  
-ArXiv 2026. [[link]](https://arxiv.org/abs/2604.23321)
+ArXiv 2026. [[link]](https://arxiv.org/abs/2604.23321)[[code]](https://github.com/TIGER-AI-Lab/VLM2Vec/tree/olm2vec)
 
 # Experience
 
