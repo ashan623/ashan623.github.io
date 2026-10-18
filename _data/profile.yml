@@ -1,0 +1,102 @@
+# Edit this file to update the visible content on the homepage.
+name: "Haohang Huang"
+given_name: "Haohang"
+family_name: "Huang"
+role: "M.Sc. Student in Financial Computing"
+location: "Suzhou, China"
+avatar: "profile-initials.svg"
+email: "Haohang.Huang25@student.xjtlu.edu.cn"
+github: "ashan623"
+google_scholar: ""
+linkedin: ""
+cv: "files/Haohang-Huang-CV.pdf"
+
+intro: >-
+  I am a master's student in Financial Computing at Xi'an Jiaotong-Liverpool University. My research interests lie at the intersection of information retrieval, multimodal representation learning, and agentic systems. Before returning to graduate study, I worked as a software engineer at the State Taxation Administration of Dali Prefecture.
+
+collaboration: >-
+  I am open to collaborations and discussions on information retrieval, multimodal embeddings, and agentic search. Please feel free to reach out if you are interested in related topics.
+
+interests:
+  - "Fine-grained Retrieval"
+  - "Omni-modal Embeddings"
+  - "Agentic Search"
+
+research:
+  - title: "Fine-grained retrieval and efficient ranking"
+    body: >-
+      I study retrieval for complex information needs, including tool retrieval and fine-grained cross-modal retrieval. A recurring goal is to improve ranking quality while reducing the inference cost of the retriever and reranker.
+  - title: "Omni-modal embeddings"
+    body: >-
+      I explore unified representation spaces for text, images, audio, video, documents, and tools. My work covers alignment training, benchmark design, and evaluation pipelines for measuring cross-modal semantic consistency.
+  - title: "Agentic search"
+    body: >-
+      I investigate search systems for agents that must plan over multiple steps, call heterogeneous tools, gather evidence from multiple sources, and use external feedback to solve complex tasks end to end.
+
+news:
+  - date: "2026"
+    datetime: "2026"
+    text: "MMEB-V3: Measuring the Performance Gaps of Omni-Modality Embedding Models was released as a preprint; the associated project has received 600+ GitHub stars."
+  - date: "2026"
+    datetime: "2026"
+    text: "Two papers were accepted to ICLR 2026: Tools Are Under-Documented and Rethinking Reasoning in Document Ranking."
+  - date: "2025"
+    datetime: "2025"
+    text: "A Novel Random Sample Partition-Based Ensemble Algorithm for Credit Card Fraud Detection was presented orally at ICIC 2025."
+  - date: "2024"
+    datetime: "2024"
+    text: "Contributed to tax-risk and anomalous-behavior identification during the Golden Tax IV platform upgrade at the Guangzhou R&D center."
+  - date: "2022.08"
+    datetime: "2022-08"
+    text: "Joined the State Taxation Administration of Dali Prefecture as a software engineer."
+
+publications:
+  - venue: "Preprint"
+    meta: "2026 · First author"
+    title: "MMEB-V3: Measuring the Performance Gaps of Omni-Modality Embedding Models"
+    authors: "Haohang Huang · First author"
+    links: []
+  - venue: "ICLR"
+    meta: "2026 · CCF A · Co-first author"
+    title: "Tools Are Under-Documented: Simple Document Expansion Boosts Tool Retrieval"
+    authors: "Haohang Huang · Co-first author"
+    links: []
+  - venue: "ICLR"
+    meta: "2026 · CCF A · Co-first author"
+    title: "Rethinking Reasoning in Document Ranking: Why Chain-of-Thought Falls Short"
+    authors: "Haohang Huang · Co-first author"
+    links: []
+  - venue: "CVPR"
+    meta: "2026 · CCF A · Third author"
+    title: "Beyond Global Similarity: Multi-Conditional Retrieval for Fine-Grained Cross-Modal Understanding"
+    authors: "Haohang Huang · Third author"
+    links: []
+  - venue: "ICIC"
+    meta: "2025 · Oral · CCF C"
+    title: "A Novel Random Sample Partition-Based Ensemble Algorithm for Credit Card Fraud Detection"
+    authors: "Haohang Huang · First author"
+    links: []
+
+experience:
+  - organization: "State Taxation Administration of Dali Prefecture"
+    role: "Software Engineer (Civil Service)"
+    dates: "Aug 2022 — Jul 2025"
+    description: "Contributed to the development and upgrade of government tax information systems. In 2024, worked with the Guangzhou R&D center on tax-risk and anomalous-behavior identification for the Golden Tax IV platform."
+
+education:
+  - institution: "Xi'an Jiaotong-Liverpool University"
+    program: "M.Sc. in Financial Computing"
+    dates: "Sep 2025 — Present"
+  - institution: "Kunming University of Science and Technology"
+    program: "B.Sc. in Land Resources Management"
+    dates: "Sep 2018 — Jul 2022"
+
+skills:
+  - label: "Programming"
+    value: "Python · MATLAB · C++ · C · Java"
+  - label: "Python packages"
+    value: "NumPy · SciPy · scikit-learn · PyTorch · TensorFlow · Keras"
+  - label: "LLM frameworks"
+    value: "LLaMA Factory · MS-Swift · VERL"
+  - label: "Language"
+    value: "English · IELTS 6"

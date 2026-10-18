@@ -1,0 +1,65 @@
+---
+---
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.data.profile.name }} — {{ site.data.profile.role }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="author" content="{{ site.data.profile.name | escape }}">
+  <link rel="alternate" type="application/atom+xml" href="{{ site.baseurl }}/feed.xml" title="{{ site.title }} Feed">
+  <script src="{{ site.baseurl }}/assets/js/profile-theme.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/profile.css">
+</head>
+<body class="profile-site">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="profile-header">
+    <div class="header-inner">
+      <a class="site-name" href="{{ site.baseurl }}/">{{ site.data.profile.name }}</a>
+      <nav class="profile-nav" aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <button class="theme-button" type="button" aria-label="Switch to dark theme" aria-pressed="false" hidden>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.2 15.3A8.6 8.6 0 0 1 8.7 3.8a8.7 8.7 0 1 0 11.5 11.5Z"/></svg>
+          <svg class="sun-icon" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="profile-main">
+    <section class="profile-hero" aria-labelledby="profile-name">
+      <div class="hero-copy">
+        <h1 id="profile-name"><span>{{ site.data.profile.given_name }}</span> {{ site.data.profile.family_name }}<span class="name-period">.</span></h1>
+        <p class="hero-role">{{ site.data.profile.role }}</p>
+        <div class="hero-interests">
+          <span class="interests-label">Research interests:</span>
+          <ul class="interest-tags" aria-label="Research interests">
+            {% for interest in site.data.profile.interests %}<li>{{ interest }}</li>{% endfor %}
+          </ul>
+        </div>
+        <div class="hero-bio">{{ site.data.profile.intro | markdownify }}</div>
+        <nav class="profile-contacts" aria-label="Contact and academic profiles">
+          {% if site.data.profile.email %}<a href="mailto:{{ site.data.profile.email }}">Email <span aria-hidden="true">↗</span></a>{% endif %}
+          {% if site.data.profile.google_scholar %}<a href="{{ site.data.profile.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a>{% endif %}
+          {% if site.data.profile.linkedin %}<a href="{{ site.data.profile.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a>{% endif %}
+          {% if site.data.profile.github %}<a href="https://github.com/{{ site.data.profile.github }}">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
+          {% if site.data.profile.cv %}<a href="{{ site.baseurl }}/{{ site.data.profile.cv }}">CV <span aria-hidden="true">↗</span></a>{% endif %}
+        </nav>
+      </div>
+      <figure class="hero-portrait">
+        <img src="{{ site.baseurl }}/images/{{ site.data.profile.avatar }}" alt="{{ site.data.profile.name }}" width="224" height="270" fetchpriority="high">
+        <figcaption>{{ site.data.profile.location }}</figcaption>
+      </figure>
+    </section>
+    {{ content }}
+  </main>
+  <footer class="profile-footer">
+    <div><span>© {{ site.time | date: '%Y' }} {{ site.data.profile.name }}</span><a href="{{ site.baseurl }}/sitemap.xml">Sitemap</a></div>
+    <p>Built with <a href="https://jekyllrb.com/">Jekyll</a> · Based on <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a></p>
+  </footer>
+</body>
+</html>

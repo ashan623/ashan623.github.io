@@ -143,3 +143,32 @@ h1, h2, h3 { line-height: 1.3; }
   .profile-footer { margin: 0 20px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+
+/* Resume sections added for the personalized profile page. */
+.profile-subsection { margin-top: 30px; }
+.profile-subtitle { margin: 0 0 13px; color: var(--accent); font-size: 1.075rem; font-weight: 600; letter-spacing: -.015em; }
+.profile-timeline { border-top: 1px solid var(--line); }
+.timeline-item { display: grid; grid-template-columns: 155px minmax(0,1fr); gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.timeline-meta { color: var(--muted); font-size: .875rem; line-height: 1.6; padding-top: 3px; }
+.timeline-meta strong { color: var(--muted); font-weight: 500; }
+.timeline-body h3 { margin: 0 0 3px; font-size: 1.08rem; font-weight: 600; line-height: 1.45; }
+.timeline-body p { font-size: .95rem; line-height: 1.8; }
+.timeline-body .timeline-organization { color: var(--accent); margin-bottom: 7px; font-weight: 550; }
+.education-subsection { margin-top: 38px; }
+.skills-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 0 36px; border-top: 1px solid var(--line); }
+.skill-group { padding: 17px 0; border-bottom: 1px solid var(--line); }
+.skill-group strong { display: block; color: var(--accent); font-weight: 600; margin-bottom: 4px; }
+.skill-group p { color: var(--muted); margin: 0; line-height: 1.75; }
+code { color: var(--accent); background: var(--surface); padding: .08em .3em; border-radius: 3px; font-size: .92em; }
+@media (max-width: 760px) {
+  .timeline-item { grid-template-columns: 125px minmax(0,1fr); gap: 18px; }
+  .skills-grid { gap: 0 24px; }
+}
+@media (max-width: 520px) {
+  .timeline-item { display: block; }
+  .timeline-meta { margin-bottom: 5px; }
+  .skills-grid { grid-template-columns: 1fr; }
+}
+.publication-authors { font-size: .875rem; color: var(--muted); line-height: 1.8; margin-bottom: 11px; }
+.publication-authors p { margin: 0; }

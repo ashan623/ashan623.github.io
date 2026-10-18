@@ -9,35 +9,35 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Anhao Zhao"
+title                    : "Haohang Huang"
 title_separator          : "-"
-name                     : &name "Anhao Zhao"
-description              : &description "Ph.D. Student at PolyU & EIT"
-url                      : https://AnhaoZhao-LLMer.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Haohang Huang"
+description              : &description "M.Sc. Student in Financial Computing"
+url                      : https://ashan623.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "AnhaoZhao-LLMer.github.io"
+repository               : "ashan623/ashan623.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
-  name             : "Anhao Zhao"
+  avatar           : "profile-initials.svg"
+  name             : "Haohang Huang"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Student at PolyU & EIT"
-  location         : "Hong Kong, China"
+  bio              : "M.Sc. Student in Financial Computing"
+  location         : "Suzhou, China"
   employer         : 
   uri              : # URL
-  email            : "anhao.zhao@connect.polyu.hk" 
+  email            : "Haohang.Huang25@student.xjtlu.edu.cn"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=19oxcOwAAAAJ&hl=zh-CN&oi=ao"
+  googlescholar    : # Add your Google Scholar profile URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-1164-5045"
+  orcid            : # Add your ORCID URL
   semantic         : # URL
   pubmed           : 
   researchgate     : # URL
@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "AnhaoZhao-LLMer"
+  github           : "ashan623"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
